@@ -15,18 +15,18 @@ public class RemoveDuplicate {
     return result;
   }
 
-  public static int removeDuplicate1(int[] arr){
-    int i = 0;
-    int[] nums = new int[arr.length];
-    for(int j = 0; j<=arr.length-1; j++){
-      continue;
-    }
-    nums = arr[j];
-    return nums;
-  }
+  // public static int removeDuplicate1(int[] arr){
+  //   int i = 0;
+  //   int[] nums = new int[arr.length];
+  //   for(int j = 0; j<=arr.length-1; j++){
+  //     continue;
+  //   }
+  //   nums = arr[j];
+  //   return nums;
+  // }
   public static void main(String[] args) {
-      // int [] arr = {1, 1 , 2, 2, 3, 4};
-       int [] arr = {1, 1 , 2};
+      int [] arr = {1, 1 , 2, 2, 3, 4};
+      //  int [] arr = {1, 1 , 2};
       System.out.println(removeDuplicate(arr));
   }
 }
